@@ -50,7 +50,8 @@ $ python ./this.py foo.exe bar.zip biz.png ...
 ```
 ---
 ## BackupDB.bat
-- 備份開發資料庫
+備份開發資料庫
+
 ### 使用方式
 ```bash
 $ ./this.bat %1 %2 %3 
@@ -60,10 +61,12 @@ $ ./this.bat %1 %2 %3
 - %3 放控制用的 switch_case
 ---
 ## backup_logic.bat
-備份程式開發的原始碼
+備份程式開發(powerbuilder)的原始碼
+
 ---
 ## layoutGen.py
 開發 powerbuilder datawindow layout 的生成 code
+
 ### 使用方式
 - 創一個txt檔(argv[1])，裡頭:
 ``` bash
@@ -71,14 +74,16 @@ tableINcolumn1
 tableINcolumn2
 ...
 ```
-- 再創一個txt檔，裡頭把 dw 的src code塞進去(argv[2])。他就會吐出你所需要的全部給你，你再把它貼到PB就好。
+- 再創一個txt檔，裡頭把 dw 的src code塞進去(argv[2])。他就會輸出你所需要的全部給你，你再把它貼到PB就好。
 - $ python layoutGne.py argv[1] argv[2] 
 ---
 ## Syslog server.py
 臨時架一個 syslog server 用的 code
+
 ---
 ## pinger.py
 多執行續 ping IP
+
 ---
 ## poweroffWhenVirutalBoxDown.bat
 windows 發現 Vbox 咖掉後即關機 (要事先把 Virtualboxe 管理介面選單關掉)
