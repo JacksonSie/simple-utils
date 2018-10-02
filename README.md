@@ -87,3 +87,7 @@ tableINcolumn2
 ---
 ## poweroffWhenVirutalBoxDown.bat
 windows 發現 Vbox 咖掉後即關機 (要事先把 Virtualboxe 管理介面選單關掉)
+
+---
+## cnyes_crawler.py
+鉅亨網日K爬蟲
