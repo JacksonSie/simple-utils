@@ -31,3 +31,13 @@ Set-ExecutionPolicy -ExecutionPolicy UNRESTRICTED
         empNo2	會計部	阿美  留停
         empNo3	經營室	王董  離職
         ...
+---
+## sqlUpdateSample.sql 
+- 產出月報告的自動工具(Oracle)
+- Oracle sql anonymous block code
+### 呼叫方式
+```bash
+crontab -e
+0 0 * * * sqlplus @sqlUpdateSample
+$ sqlplus @sqlUpdateSample
+```
