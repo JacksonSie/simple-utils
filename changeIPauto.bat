@@ -1,5 +1,5 @@
 @echo off
-set interface="°Ï°ì³s½u"
+set interface="å€åŸŸé€£ç·š"
 set ipaddr=10.6.225.198
 set mask=255.255.255.0
 set gateway=10.6.225.254
