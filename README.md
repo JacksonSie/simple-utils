@@ -2,9 +2,9 @@
 例行工作自動化的小工具，持續增加中
 
 ## autoMount.bat 
-    - 自動掛載 NAS server
-    - 需先設定IP
-    - 需把此 script 加入 $PATH 與 startup
+    * 自動掛載 NAS server
+    * 需先設定IP
+    * 需把此 script 加入 $PATH 與 startup
 ---
 ## changeIPauto.bat 
     - 自動更換靜態IP與動態IP
