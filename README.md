@@ -91,3 +91,10 @@ windows 發現 Vbox 咖掉後即關機 (要事先把 Virtualboxe 管理介面選
 ---
 ## cnyes_crawler.py
 鉅亨網日K爬蟲
+
+---
+## guess_excel_password.py
+excel 猜測密碼的工具，使用方式:
+```bash
+this.py foo.xls
+```
