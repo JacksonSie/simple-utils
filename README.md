@@ -102,3 +102,7 @@ this.py foo.xls
 ---
 ## free-proxy-list
 get proxy list from spys.one
+
+---
+## simple-utils
+在chrome 命令列執行簡單的抽獎功能
