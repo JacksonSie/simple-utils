@@ -27,7 +27,7 @@ function get得獎list(留言json,得獎人數,合格留言){
             合格留言list.push(i.node.owner.username);
         }
     });
-    for (let i = 0 ; i <= Math.random() * 10 * 合格留言list; i++){
+    for (let i = 0 ; i <= Math.random() * 10 * 合格留言list.length; i++){
         shuffleArray(合格留言list);
     };
     for(i=0;i<得獎人數;i++){
