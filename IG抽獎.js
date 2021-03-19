@@ -55,7 +55,9 @@ function 執行抽獎(貼文url,合格留言,得獎人數){
     openwindow(得獎list);
 }
 
+/*
 執行抽獎('https://www.instagram.com/p/xyz/'
     ,'done'
     ,10
 );
+*/
