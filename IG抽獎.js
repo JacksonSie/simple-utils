@@ -48,11 +48,11 @@ function openwindow(得獎list){
     });
 }
 
-function 執行抽獎(貼文url,合格留言,得獎人數){
-    let 留言url = get留言url(貼文url);
-    let 留言json = get留言json(留言url);
-    let 得獎list = get得獎list(留言json,得獎人數,合格留言);
-    openwindow(得獎list);
+async function 執行抽獎(貼文url,合格留言,得獎人數,標記人數){
+    let 留言url = await get留言url(貼文url);
+    let 留言json = await get留言json(留言url);
+    let 得獎list = await get得獎list(留言json,得獎人數,合格留言);
+    await openwindow(得獎list);
 }
 
 /*
