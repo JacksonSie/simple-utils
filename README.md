@@ -106,3 +106,19 @@ get proxy list from spys.one
 ---
 ## simple-utils
 在chrome 命令列執行簡單的抽獎功能
+
+---
+## TWSE.py
+爬取證交所股價資料的爬蟲
+
+---
+## cnyes_crawler.py
+爬取鉅亨網海外指數的爬蟲
+
+---
+## stoxx_indexs.py
+爬取歐洲證交所商品的爬蟲
+
+---
+## hidemyname.py
+get hidemyname proxy list 
